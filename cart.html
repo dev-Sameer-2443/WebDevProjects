@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Cart</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: linear-gradient(to right, #f8f8f8, rgb(0, 0, 0));
+        }
+        h1{
+            color:#000001;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 2px 2px 4px #ffffff;
+            font-style: bold;
+            ;
+        }
+        img{
+            display: block;
+            margin: 20px auto;
+            width: 500px;
+        }
+        p{
+            font-size: 24px;
+            color: #ffff04;
+            text-align: center;
+            text-shadow: 1px 1px 2px #000000;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(195, 0, 249, 0.2);
+            
+        }
+        button:hover{
+            transition: 0.2s ease-out;
+            transform:scale(1.1);
+            
+        }
+        #button{
+            color:white;
+            text-decoration:none;
+
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <img class="empty-cart-image" src="images/emptyCart.webp" alt="Empty Cart">
+    <p>Your cart is currently empty.</p>
+    <button><a id="button" href="catalogue.html"> Explore Popular Books [catalogue]</a></button>
+    
+</body>
+</html>
